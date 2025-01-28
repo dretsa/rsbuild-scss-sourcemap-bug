@@ -1,0 +1,15 @@
+{
+  "name": "resbuild-scss-sourcemap-bug",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "rsbuild dev --open",
+    "build": "rsbuild build",
+    "preview": "rsbuild preview"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "1.2.3",
+    "@rsbuild/plugin-sass": "1.2.0",
+    "bootstrap": "5.3.3"
+  }
+}
